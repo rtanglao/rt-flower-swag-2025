@@ -1,5 +1,9 @@
+# 2025-04-20-p1 get a full list of the originals
+```bash
+cd ORIGINALS
+realpath *.jpg > originals.txt
+```
 # 2025-04-19-p1 download the originals
-
 * `ORIGINALS` is in `.gitignore` to prevent uploading 3.3GB to github :-)
 
 ```bash
