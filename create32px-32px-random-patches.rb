@@ -54,5 +54,4 @@ number_of_patches.times do |_i|
     stdin.close
     wait_thread.value
   end
-  exit
 end
