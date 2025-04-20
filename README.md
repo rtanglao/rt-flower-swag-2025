@@ -1,5 +1,7 @@
 # 2025-04-19-p1 download the originals
 
+* `ORIGINALS` is in `.gitignore` to prevent uploading 3.3GB to github :-)
+
 ```bash
 mkdir ORIGINALS
 cd ORIGINALS
