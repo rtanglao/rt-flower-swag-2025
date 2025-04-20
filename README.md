@@ -1,3 +1,9 @@
+# 2025-04-19-p1 download the originals
+
+```bash
+../backup-originals.rb ../photoset-72177720324904746-metadata.csv
+```
+
 # 2025-04-19-p1 write a script to get a flickr set
 
 ```bash
