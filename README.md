@@ -7,7 +7,7 @@
 ```bash
 mkdir 32X32PATCHES
 cd !$
- ../create32px-32px-random-patches.rb ../ORIGINALSooriginals.txt 20696 2> stderr.txt &
+ ../create32px-32px-random-patches.rb ../ORIGINALS/originals.txt 20696 2> stderr.txt &
 ```  
 # 2025-04-20-p1 get a full list of the originals
 ```bash
