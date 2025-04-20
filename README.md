@@ -1,3 +1,14 @@
+# 2025-04-20-p2 Create 32x32 patches 
+* 16 x 16 pixel was too abstract :-)
+* leggings	3325px x 6358px for one leg
+* 3325/32 = 104, 6358/32 = 199
+* 104*199 = 20696 patches :-)
+  
+```bash
+mkdir 32X32PATCHES
+cd !$
+ ../create32px-32px-random-patches.rb ../ORIGINALSooriginals.txt 20696 2> stderr.txt &
+```  
 # 2025-04-20-p1 get a full list of the originals
 ```bash
 cd ORIGINALS
