@@ -1,6 +1,8 @@
 # 2025-04-19-p1 download the originals
 
 ```bash
+mkdir ORIGINALS
+cd ORIGINALS
 ../backup-originals.rb ../photoset-72177720324904746-metadata.csv
 ```
 
