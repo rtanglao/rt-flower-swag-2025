@@ -1,3 +1,6 @@
+flickr.conf
+.RData
+.Rhistory
 *.gem
 *.rbc
 /.config
