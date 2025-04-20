@@ -67,15 +67,16 @@ loop do
                  nojsoncallback: '1',
                  photoset_id: photoset_id,
                  user_id: '35034347371@N01',
-                 content_type: '7', # all: photos, videos, etc
+                 #content_type: '7', # all: photos, videos, etc
                  extras: extras_str,
                  sort: 'date-taken-asc',
+                 per_page: 250,
                  page: page.to_s }
   response = getFlickrResponse(search_url, url_params, logger)
   photos_on_this_page = response['photoset']
 
   ap photos_on_this_page
-
+  $stderr.printf("RETRIEVING page : #{page}")
   $stderr.printf("STATUS from flickr API:%s retrieved page:%d of:%d\n", response['stat'],
                  photos_on_this_page['page'].to_i, photos_on_this_page['pages'].to_i)
   photos_on_this_page['photo'].each do |photo|
@@ -110,6 +111,7 @@ loop do
   end
 
   page += 1
+  $stderr.printf("incremented page to: #{page}\n")
   break if page > photos_on_this_page['pages']
 end
 
