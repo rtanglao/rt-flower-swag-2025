@@ -34,7 +34,7 @@ ls -1 | wc -l
 cd ORIGINALS
 realpath *.jpg > originals.txt
 ```
-# 2025-04-19-p1 download the originals
+# 2025-04-19-p2 download the originals
 * `ORIGINALS` is in `.gitignore` to prevent uploading 3.3GB to github :-)
 
 ```bash
