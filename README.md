@@ -1,3 +1,8 @@
+# 2025-04-20-p2 Make 20696-20661 = 35 more patches but let's do 100 more just for fun
+```bash
+cd 32X32PATCHES
+../create32px-32px-random-patches.rb ../ORIGINALS/originals.txt 100 2> one-hundred-more-stderr.txt &
+```
 # 2025-04-20-p2 Create 32x32 patches 
 * 16 x 16 pixel was too abstract :-)
 * leggings	3325px x 6358px for one leg
@@ -8,6 +13,8 @@
 mkdir 32X32PATCHES
 cd !$
  ../create32px-32px-random-patches.rb ../ORIGINALS/originals.txt 20696 2> stderr.txt &
+ls -1 | wc -l
+   20661
 ```  
 # 2025-04-20-p1 get a full list of the originals
 ```bash
