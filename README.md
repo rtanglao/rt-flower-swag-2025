@@ -35,6 +35,7 @@ ls -1 | wc -l
    20661
 ```  
 # 2025-04-20-p1 get a full list of the originals
+* Apparently `realpath` is macOS and/or BSD specific :-) oops
 ```bash
 cd ORIGINALS
 realpath *.jpg > originals.txt
