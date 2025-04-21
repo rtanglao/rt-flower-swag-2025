@@ -4,9 +4,10 @@
 ```bash
 find 32X32PATCHES -name '*.png' -print | shuf | head -n 20696 > leftleg-files.txt
 find 32X32PATCHES -name '*.png' -print | shuf | head -n 20696 > rightleg-files.txt
-magick montage "32X32PATCHES" -tile 104x199  \
--geometry "32x32+0+0" \
+magick montage @leftleg-files.txt -tile 104x199 -geometry "32x32+0+0" \
 vancouver-flowers-2025-32x32-patches-leftleg.png
+magick montage @rightleg-files.txt -tile 104x199 -geometry "32x32+0+0" \
+vancouver-flowers-2025-32x32-patches-rightleg.png
 ```
 # 2025-04-20-p3 Make 20696-20661 = 35 more patches but let's do 100 more just for fun
 ```bash
