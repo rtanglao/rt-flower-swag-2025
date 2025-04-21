@@ -1,6 +1,6 @@
 # 2025-04-20-p4 Make the art of where collage legs with 20696 randomly arranged files 
 * patch size is 32px x 32px
-* Each leg of an Art of Where tights is 3325px x 6358 px
+* Each leg of an Art of Where tights is 3325px x 6358 px (see [Art of Where's Design Guidelines](https://artofwhere.com/info/design-guidelines))
 * 3325/32 = 104 patches wide 6358/32 = 199 patches high
 * 104 * 199 = 20696
 * [leftleg-files.txt](https://github.com/rtanglao/rt-flower-swag-2025/blob/main/leftleg-files.txt)
