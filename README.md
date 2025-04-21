@@ -1,4 +1,12 @@
-# 2025-04-20-p2 Make 20696-20661 = 35 more patches but let's do 100 more just for fun
+# 2025-04-20-p4 Make the art of where collage legs with 20696 random files 
+* patch size is 32x32 3325/32 = 104 width 6358/32 = 199 height
+* 104 * 199 = 20696
+```bash
+magick montage "32X32PATCHES" -tile 9x101  \
+-geometry "369x63+0+0" \
+hotpink_300DPI_2023_04_01_2024_11_03_tbaaq_emoji.png
+```
+# 2025-04-20-p3 Make 20696-20661 = 35 more patches but let's do 100 more just for fun
 ```bash
 cd 32X32PATCHES
 ../create32px-32px-random-patches.rb ../ORIGINALS/originals.txt 100 2> one-hundred-more-stderr.txt &
