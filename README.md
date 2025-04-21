@@ -1,6 +1,10 @@
 # 2025-04-20-p4 Make the art of where collage legs with 20696 randomly arranged files 
-* patch size is 32x32 3325/32 = 104 width 6358/32 = 199 height
+* patch size is 32px x 32px
+* Each leg of an Art of Where tights is 3325px x 6358 px
+* 3325/32 = 104 patches wide 6358/32 = 199 patches high
 * 104 * 199 = 20696
+* [leftleg-files.txt](https://github.com/rtanglao/rt-flower-swag-2025/blob/main/leftleg-files.txt)
+* [rightleg-files.txt](https://github.com/rtanglao/rt-flower-swag-2025/blob/main/rightleg-files.txt)
 ```bash
 find 32X32PATCHES -name '*.png' -print | shuf | head -n 20696 > leftleg-files.txt
 find 32X32PATCHES -name '*.png' -print | shuf | head -n 20696 > rightleg-files.txt
@@ -21,6 +25,7 @@ ls -1 | wc -l
 * leggings	3325px x 6358px for one leg
 * 3325/32 = 104, 6358/32 = 199
 * 104*199 = 20696 patches :-)
+* [create32px-32px-random-patches.rb](https://github.com/rtanglao/rt-flower-swag-2025/blob/main/create32px-32px-random-patches.rb) is a Ruby script that creates the 32 pixel by 32 pixel patches
   
 ```bash
 mkdir 32X32PATCHES
@@ -35,7 +40,7 @@ cd ORIGINALS
 realpath *.jpg > originals.txt
 ```
 # 2025-04-19-p2 download the originals
-* `ORIGINALS` is in `.gitignore` to prevent uploading 3.3GB to github :-)
+* `ORIGINALS` is in `.gitignore` to prevent uploading 3.3GB of files to github :-)
 
 ```bash
 mkdir ORIGINALS
@@ -44,8 +49,7 @@ cd ORIGINALS
 ```
 
 # 2025-04-19-p1 write a script to get a flickr set
-
+* The [backup-photoset-by-id.rb](https://github.com/rtanglao/rt-flower-swag-2025/blob/main/backup-photoset-by-id.rb) Ruby script creates [photoset-72177720324904746-metadata.csv](https://github.com/rtanglao/rt-flower-swag-2025/blob/main/photoset-72177720324904746-metadata.csv)
 ```bash
-# The following creates photoset-72177720324904746-metadata.csv
 ./backup-photoset-by-id.rb 72177720324904746
 ```
