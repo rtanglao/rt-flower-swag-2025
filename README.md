@@ -1,6 +1,7 @@
 # 2025-04-20-p5 Art of Where final leggings graphics
-* [vancouver-flowers-2025-32x32-patches-leftleg.png](https://github.com/rtanglao/rt-flower-swag-2025/blob/main/vancouver-flowers-2025-32x32-patches-leftleg.png)
-* [vancouver-flowers-2025-32x32-patches-rightleg.png](https://github.com/rtanglao/rt-flower-swag-2025/blob/main/vancouver-flowers-2025-32x32-patches-rightleg.png)
+* Upload the following graphics to [ArtOfWhere](https://artofwhere.com/)'s custom leggings web app and done :-)
+    * [vancouver-flowers-2025-32x32-patches-leftleg.png](https://github.com/rtanglao/rt-flower-swag-2025/blob/main/vancouver-flowers-2025-32x32-patches-leftleg.png)
+    * [vancouver-flowers-2025-32x32-patches-rightleg.png](https://github.com/rtanglao/rt-flower-swag-2025/blob/main/vancouver-flowers-2025-32x32-patches-rightleg.png)
 # 2025-04-20-p4 Make the art of where collage legs with 20696 randomly arranged files 
 * patch size is 32px x 32px
 * Each leg of an Art of Where tights is 3325px x 6358 px (see [Art of Where's Design Guidelines](https://artofwhere.com/info/design-guidelines))
