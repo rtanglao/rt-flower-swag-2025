@@ -2,9 +2,11 @@
 * patch size is 32x32 3325/32 = 104 width 6358/32 = 199 height
 * 104 * 199 = 20696
 ```bash
-magick montage "32X32PATCHES" -tile 9x101  \
--geometry "369x63+0+0" \
-hotpink_300DPI_2023_04_01_2024_11_03_tbaaq_emoji.png
+find 32X32PATCHES -name '*.png' -print | shuf | head -n 20696 > leftleg-files.txt
+find 32X32PATCHES -name '*.png' -print | shuf | head -n 20696 > rightleg-files.txt
+magick montage "32X32PATCHES" -tile 104x199  \
+-geometry "32x32+0+0" \
+vancouver-flowers-2025-32x32-patches-leftleg.png
 ```
 # 2025-04-20-p3 Make 20696-20661 = 35 more patches but let's do 100 more just for fun
 ```bash
