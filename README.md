@@ -1,3 +1,6 @@
+# 2025-04-20-p5 Art of Where final leggings graphics
+* [vancouver-flowers-2025-32x32-patches-leftleg.png](https://github.com/rtanglao/rt-flower-swag-2025/blob/main/vancouver-flowers-2025-32x32-patches-leftleg.png)
+* [vancouver-flowers-2025-32x32-patches-rightleg.png](https://github.com/rtanglao/rt-flower-swag-2025/blob/main/vancouver-flowers-2025-32x32-patches-rightleg.png)
 # 2025-04-20-p4 Make the art of where collage legs with 20696 randomly arranged files 
 * patch size is 32px x 32px
 * Each leg of an Art of Where tights is 3325px x 6358 px (see [Art of Where's Design Guidelines](https://artofwhere.com/info/design-guidelines))
@@ -5,6 +8,16 @@
 * 104 * 199 = 20696
 * [leftleg-files.txt](https://github.com/rtanglao/rt-flower-swag-2025/blob/main/leftleg-files.txt)
 * [rightleg-files.txt](https://github.com/rtanglao/rt-flower-swag-2025/blob/main/rightleg-files.txt)
+* flickr set with the above left and right legs: [2025-04-20 Art of Where Tights from github rt-flower-swag](https://flic.kr/s/aHBqjC9JUq)
+
+## 2025-04-20-p4 Flickr embed Left
+
+<a data-flickr-embed="true" href="https://www.flickr.com/photos/roland/54465375744/in/album-72177720325249288/" title="vancouver-flowers-2025-32x32-patches-leftleg"><img src="https://live.staticflickr.com/65535/54465375744_39d646aaa4_w.jpg" width="209" height="400" alt="vancouver-flowers-2025-32x32-patches-leftleg"/></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
+
+## 2025-04-20-p4 Flickr embed right
+
+<a data-flickr-embed="true" href="https://www.flickr.com/photos/roland/54465375754/in/album-72177720325249288/" title="vancouver-flowers-2025-32x32-patches-rightleg"><img src="https://live.staticflickr.com/65535/54465375754_1ec6554b64_w.jpg" width="209" height="400" alt="vancouver-flowers-2025-32x32-patches-rightleg"/></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
+
 ```bash
 find 32X32PATCHES -name '*.png' -print | shuf | head -n 20696 > leftleg-files.txt
 find 32X32PATCHES -name '*.png' -print | shuf | head -n 20696 > rightleg-files.txt
@@ -12,6 +25,7 @@ magick montage @leftleg-files.txt -tile 104x199 -geometry "32x32+0+0" \
 vancouver-flowers-2025-32x32-patches-leftleg.png
 magick montage @rightleg-files.txt -tile 104x199 -geometry "32x32+0+0" \
 vancouver-flowers-2025-32x32-patches-rightleg.png
+
 ```
 # 2025-04-20-p3 Make 20696-20661 = 35 more patches but let's do 100 more just for fun
 ```bash
