@@ -1,5 +1,5 @@
 # 2025-04-20-p5 Art of Where final leggings graphics
-* Upload the following graphics to [ArtOfWhere](https://artofwhere.com/)'s custom leggings web app and done :-)
+* Upload the following graphics to [art of where](https://artofwhere.com/)'s custom leggings web app and done :-)
     * [vancouver-flowers-2025-32x32-patches-leftleg.png](https://github.com/rtanglao/rt-flower-swag-2025/blob/main/vancouver-flowers-2025-32x32-patches-leftleg.png)
     * [vancouver-flowers-2025-32x32-patches-rightleg.png](https://github.com/rtanglao/rt-flower-swag-2025/blob/main/vancouver-flowers-2025-32x32-patches-rightleg.png)
 # 2025-04-20-p4 Make the art of where collage legs with 20696 randomly arranged files 
