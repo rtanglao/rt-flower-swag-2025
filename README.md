@@ -1,4 +1,4 @@
-# 2025-04-20-p4 Make the art of where collage legs with 20696 random files 
+# 2025-04-20-p4 Make the art of where collage legs with 20696 randomly arranged files 
 * patch size is 32x32 3325/32 = 104 width 6358/32 = 199 height
 * 104 * 199 = 20696
 ```bash
