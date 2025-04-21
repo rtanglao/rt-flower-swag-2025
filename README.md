@@ -2,6 +2,8 @@
 ```bash
 cd 32X32PATCHES
 ../create32px-32px-random-patches.rb ../ORIGINALS/originals.txt 100 2> one-hundred-more-stderr.txt &
+ls -1 | wc -l
+   20762
 ```
 # 2025-04-20-p2 Create 32x32 patches 
 * 16 x 16 pixel was too abstract :-)
