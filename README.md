@@ -1,3 +1,15 @@
+# 2025-05-03-p3 Go Make Custom back of tshirt using 64 pixel by 64 pixel patches 
+* 10 inch by 12 inch at 300 dots per inch  = 3000 pixels by 3600 pixels
+* 3000 pixels / 64 pixels = approximately 47 patches wide
+* 3600 pixels / 64 pixels = approximately 57 patches height
+* 47 * 57 = 2679 patches but we'll make 2800 just for fun
+* add 64X64PATCHES to .gitignore and turn  off spotlight indexing in macOS
+```bash
+mkdir 64X64PATCHES
+cd !$
+ ../create64px-64px-random-patches.rb ../ORIGINALS/originals.txt 2800 2> stderr.txt &
+```
+
 # 2025-05-03-p2 Make go Make Custom Front of tshirt with 128 by 128 pixel patches
 
 ```bash
