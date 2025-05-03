@@ -2,7 +2,8 @@
 * 10 inch by 12 inch at 300 dots per inch  = 3000 pixels by 3600 pixels
 * 3000 pixels / 128 pixels = approximately 24 patches wide
 * 3600 pixels / 128 pixels = approximately 29 patches height
-* 24 * 29 = 696 patches but we'll make 1000 just for fun  
+* 24 * 29 = 696 patches but we'll make 1000 just for fun
+* add 128X128PATCHES to .gitignore and turn  off spotlight indexing in macOS
 ```bash
 mkdir 128X128PATCHES
 cd !$
