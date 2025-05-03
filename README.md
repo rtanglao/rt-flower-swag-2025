@@ -1,3 +1,11 @@
+# 2025-05-03-p2 Make go Make Custom Front
+
+```bash
+find 128X128PATCHES -name '*.png' -print | shuf | head -n 696 > front-go-custom-files.txt
+magick montage @front-go-custom-files.txt -tile 24x29 -geometry "128x128+0+0" \
+vancouver-flowers-2025-128x128-patches-go-custom-front.png
+```
+
 # 2025-05-03-p1 Go Make Custom using 128 pixel by 128 pixel patches 
 * 10 inch by 12 inch at 300 dots per inch  = 3000 pixels by 3600 pixels
 * 3000 pixels / 128 pixels = approximately 24 patches wide
