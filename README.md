@@ -1,3 +1,13 @@
+# 2025-05-03-p1 Go Make Custom using 128 pixel by 128 pixel patches 
+* 10 inch by 12 inch at 300 dots per inch  = 3000 pixels by 3600 pixels
+* 3000 pixels / 128 pixels = approximately 24 patches wide
+* 3600 pixels / 128 pixels = approximately 29 patches height
+* 24 * 29 = 696 patches but we'll make 1000 just for fun  
+```bash
+mkdir 128X128PATCHES
+cd !$
+ ../create128px-128px-random-patches.rb ../ORIGINALS/originals.txt 1000 2> stderr.txt &
+```
 # 2025-04-20-p5 Art of Where final leggings graphics
 * Upload the following graphics to [art of where](https://artofwhere.com/)'s custom leggings web app and done :-)
     * [vancouver-flowers-2025-32x32-patches-leftleg.png](https://github.com/rtanglao/rt-flower-swag-2025/blob/main/vancouver-flowers-2025-32x32-patches-leftleg.png)
