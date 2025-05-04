@@ -3,7 +3,7 @@
 ```bash
 find 64X64PATCHES -name '*.png' -print | shuf | head -n 2679 > back-go-custom-files.txt
 magick montage @back-go-custom-files.txt -tile 47x57 -geometry "64x64+0+0" \
-vancouver-flowers-2025-64x64-patches-go-custom-front.png
+vancouver-flowers-2025-64x64-patches-go-custom-back.png
 ```
 # 2025-05-03-p3 Go Make Custom back of tshirt using 64 pixel by 64 pixel patches 
 * 10 inch by 12 inch at 300 dots per inch  = 3000 pixels by 3600 pixels
