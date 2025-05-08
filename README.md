@@ -1,4 +1,13 @@
-## 2025-05-03-p4 Make go Make Custom Back of tshirt with 64 by 64 pixel patches
+## 2025-05-07-p1 Upload front and back to Go Make Custom to make tshirt
+* https://www.gomakecustom.com/makecustom/shop/home
+
+### 2025-05-07-p1 Front 128x128:
+
+<a data-flickr-embed="true" href="https://www.flickr.com/photos/roland/54503504802/in/dateposted-public/" title="vancouver-flowers-2025-128x128-patches-go-custom-front"><img src="https://live.staticflickr.com/65535/54503504802_91a19fa2ec_w.jpg" width="331" height="400" alt="vancouver-flowers-2025-128x128-patches-go-custom-front"/></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
+
+### 2025-05-07-p1 Back 64x64:
+
+<a data-flickr-embed="true" href="https://www.flickr.com/photos/roland/54503504802/in/dateposted-public/" title="vancouver-flowers-2025-128x128-patches-go-custom-front"><img src="https://live.staticflickr.com/65535/54503504802_91a19fa2ec_w.jpg" width="331" height="400" alt="vancouver-flowers-2025-128x128-patches-go-custom-front"/></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>## 2025-05-03-p4 Make go Make Custom Back of tshirt with 64 by 64 pixel patches
 
 ```bash
 find 64X64PATCHES -name '*.png' -print | shuf | head -n 2679 > back-go-custom-files.txt
